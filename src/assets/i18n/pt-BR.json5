@@ -2613,7 +2613,7 @@
   "dso-selector.set-scope.community.head": "Selecione um escopo de pesquisa",
 
   // "dso-selector.set-scope.community.button": "Search all of DSpace",
-  "dso-selector.set-scope.community.button": "Pesquisar em todo o RIGEO",
+  "dso-selector.set-scope.community.button": "Pesquisar em todo o RIGeo",
 
   // "dso-selector.set-scope.community.or-divider": "or",
   "dso-selector.set-scope.community.or-divider": "ou",
@@ -3174,13 +3174,13 @@
   "home.breadcrumbs": "Início",
 
   // "home.search-form.placeholder": "Search the repository ...",
-  "home.search-form.placeholder": "Pesquise no repositório...",
+  "home.search-form.placeholder": "Pesquise no repositório",
 
   // "home.title": "Home",
   "home.title": "Início",
 
   // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Comunidades no RIGEO",
+  "home.top-level-communities.head": "Comunidades no RIGeo",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Selecione uma comunidade para navegar por suas coleções",
@@ -4758,7 +4758,7 @@
   "login.form.forgot-password": "Esqueceu sua senha?",
 
   // "login.form.header": "Please log in to DSpace",
-  "login.form.header": "Por favor, entre no RIGEO",
+  "login.form.header": "Por favor, entre no RIGeo",
 
   // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "Novo usuário? Clique aqui para cadastrar.",
@@ -4785,7 +4785,7 @@
   "login.breadcrumbs": "Entrar",
 
   // "logout.form.header": "Log out from DSpace",
-  "logout.form.header": "Sair do RIGEO",
+  "logout.form.header": "Sair do RIGeo",
 
   // "logout.form.submit": "Log out",
   "logout.form.submit": "Sair",
@@ -5067,7 +5067,7 @@
   "metadata-export-search.submit.error": "Falha ao iniciar a exportação",
 
   // "mydspace.breadcrumbs": "MyDSpace",
-  "mydspace.breadcrumbs": "MeuRIGEO",
+  "mydspace.breadcrumbs": "MeuRIGeo",
 
   // "mydspace.description": "",
   "mydspace.description": "",
@@ -6126,7 +6126,7 @@
   "register-page.registration.header": "Novo registro de usuário",
 
   // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
-  "register-page.registration.info": "Registre uma conta para assinar coleções para atualizações por e-mail e enviar novos itens para o RIGEO.",
+  "register-page.registration.info": "Registre uma conta para assinar coleções para atualizações por e-mail e enviar novos itens para o RIGeo.",
 
   // "register-page.registration.email": "Email Address *",
   "register-page.registration.email": "Endereço de E-mail  *",
@@ -6258,10 +6258,10 @@
   "repository.image.logo": "Logo do Repositório",
 
   // "repository.title": "DSpace Repository",
-  "repository.title": "Repositório RIGEO",
+  "repository.title": "Repositório RIGeo",
 
   // "repository.title.prefix": "DSpace Repository :: ",
-  "repository.title.prefix": "Repositório RIGEO :: ",
+  "repository.title.prefix": "Repositório RIGeo :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Adicionar",
@@ -6465,7 +6465,7 @@
   "search.breadcrumbs": "Procurar",
 
   // "search.search-form.placeholder": "Search the repository ...",
-  "search.search-form.placeholder": "Pesquise no repositório...",
+  "search.search-form.placeholder": "Pesquise no repositório",
 
   // "search.filters.remove": "Remove filter of type {{ type }} with value {{ value }}",
   "search.filters.remove": "Remover filtro do tipo {{ type }} com valor {{ value }}",
@@ -6888,7 +6888,7 @@
   "search.form.search_dspace": "Todo o repositório",
 
   // "search.form.scope.all": "All of DSpace",
-  "search.form.scope.all": "Todo o RIGEO",
+  "search.form.scope.all": "Todo o RIGeo",
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de Busca",
@@ -7131,7 +7131,7 @@
   "submission.import-external.title.none": "Importar metadados de uma fonte externa",
 
   // "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
-  "submission.import-external.page.hint": "Insira uma consulta acima para encontrar itens da web para importar para o RIGEO.",
+  "submission.import-external.page.hint": "Insira uma consulta acima para encontrar itens da web para importar para o RIGeo.",
 
   // "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
   "submission.import-external.back-to-my-dspace": "Voltar para o MeuDSpace",
@@ -10329,7 +10329,7 @@
   "sobre.info1":"O Repositório Institucional de Geociências - RIGeo objetiva promover o acesso aberto ao conhecimento geocientífico gerado no âmbito do Serviço Geológico do Brasil - SGB.",
   "sobre.info2":"O RIGeo visa garantir à sociedade o acesso gratuito, público e aberto ao conhecimento geocientífico e demais áreas correlacionadas abrangidas na missão da empresa.",
   "sobre":"Sobre",
-  "sobre.titulo":"Sobre o Rigeo",
+  "sobre.titulo":"Sobre o RIGeo",
   "sobre.contato":"Contato",
   "menu.section.sobre":"Sobre",
   "submission.sections.submit.progressbar.describe.formtype":"Tipos",
@@ -10342,5 +10342,5 @@
   "item.edit.bitstreams.info-alert": "Os Bitstream podem ser reordenados dentro de seus pacotes segurando a alça de arrasto e movendo o mouse. Alternativamente, os Bitstreams podem ser movidos usando o teclado da seguinte maneira: Selecione o bitstream pressionando Enter quando a alça de arrasto do bitstream estiver em foco. Mova o bitstream para cima ou para baixo usando as teclas de seta. Pressione Enter novamente para confirmar a posição atual do bitstream.",
 
   "menu.section.apresentacao":"Apresentação",
-  "menu.section.politica.rigeo":"Política do RIGEO",
+  "menu.section.politica.rigeo":"Política do RIGeo",
 }
