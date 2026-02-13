@@ -2859,7 +2859,7 @@
   "footer.link.end-user-agreement": "Termos de uso",
 
   // "footer.link.feedback": "Send Feedback",
-  "footer.link.feedback": "Enviar uma sugestão",
+  "footer.link.feedback": "Fale conosco",
 
   // "footer.link.coar-notify-support": "COAR Notify",
   "footer.link.coar-notify-support": "COAR Notify",
@@ -10343,4 +10343,5 @@
 
   "menu.section.apresentacao":"Apresentação",
   "menu.section.politica.rigeo":"Política do RIGeo",
+  "item.page.relation":"Links relacionados",
 }

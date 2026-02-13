@@ -80,7 +80,7 @@ describe('BrowseService', () => {
       defaultSortOrder: 'ASC',
       type: 'browse',
       metadataKeys: [
-        'dc.contributor.*',
+        'dc.contributor.author',
         'dc.creator',
       ],
       _links: {

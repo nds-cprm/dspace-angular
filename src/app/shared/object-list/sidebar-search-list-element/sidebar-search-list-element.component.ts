@@ -112,7 +112,7 @@ export class SidebarSearchListElementComponent<T extends SearchResult<K>, K exte
   getDescription(): string {
     const publisher = this.firstMetadataValue('dc.publisher');
     const date = this.firstMetadataValue('dc.date.issued');
-    const authors = this.allMetadataValues(['dc.contributor.author', 'dc.creator', 'dc.contributor.*']);
+    const authors = this.allMetadataValues(['dc.contributor.author', 'dc.creator']);
     let description = '';
     if (isNotEmpty(publisher) || isNotEmpty(date)) {
       description += '(';

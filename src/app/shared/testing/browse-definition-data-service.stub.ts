@@ -35,7 +35,7 @@ export const mockData: BrowseDefinition[] = [
     'sortOptions' : EMPTY,
     'order' : 'ASC',
     'type' : 'browse',
-    'metadataKeys' : [ 'dc.contributor.*', 'dc.creator' ],
+    'metadataKeys' : [ 'dc.contributor.author', 'dc.creator' ],
     '_links' : EMPTY,
   }),
 ];

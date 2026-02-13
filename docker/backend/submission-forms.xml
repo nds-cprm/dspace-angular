@@ -123,6 +123,85 @@
             <row>
                 <field>
                     <dc-schema>dc</dc-schema>
+                    <dc-element>creator</dc-element>
+                    <dc-qualifier>director</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Diretor(a)</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Diretor(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>creator</dc-element>
+                    <dc-qualifier>production</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Produtor(a)</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Produtor(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>creator</dc-element>
+                    <dc-qualifier>screenplay</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Redator(a)</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Redator(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>contributor</dc-element>
+                    <dc-qualifier>narrator</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Narrador(a)</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Narrador(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>contributor</dc-element>
+                    <dc-qualifier>videoeditor</dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Editor(a) de vídeo</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Diretor(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
+                    <dc-element>mediator</dc-element>
+                    <dc-qualifier></dc-qualifier>
+                    <repeatable>true</repeatable>
+                    <label>Mediador(a)</label>
+                    <input-type>onebox</input-type>
+                    <hint>Informe o(a) Mediador(a), se houver.</hint>
+                    <required/>
+                    <type-bind>Presentation,Photo indexes,Image,'Image, 3-D',multimidia</type-bind>
+                </field>
+            </row>
+
+            <row>
+                <field>
+                    <dc-schema>dc</dc-schema>
                     <dc-element>date</dc-element>
                     <dc-qualifier>issued</dc-qualifier>
                     <repeatable>false</repeatable>
@@ -278,7 +357,7 @@
                     <input-type>textarea</input-type>
                     <hint>Entre com o resumo do objeto digital que está sendo depositado.</hint>
                     <required/>
-                    <type-bind>Presentation,Atlas,Image,'Image, 3-D',Report of Mineral Resources,multimidia,Preprint,Internal Report,Technical Report,Travel Report,Software,Thesis,Working Paper,Completion course work,Other</type-bind>
+                    <type-bind>Presentation, Article,Atlas,Image,'Image, 3-D',Report of Mineral Resources,multimidia,Preprint,Internal Report,Technical Report,Travel Report,Software,Thesis,Working Paper,Completion course work,Other</type-bind>
                 </field>
             </row>
         </form>
@@ -1649,6 +1728,10 @@
             <pair>
                 <displayed-value>ISBN</displayed-value>
                 <stored-value>isbn</stored-value>
+            </pair>
+            <pair>
+                <displayed-value>DOI</displayed-value>
+                <stored-value>doi</stored-value>
             </pair>
         </value-pairs>
 

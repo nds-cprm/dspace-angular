@@ -37,7 +37,7 @@ const mockData = [
     'order': 'ASC',
     'type': 'browse',
     'metadataKeys': [
-      'dc.contributor.*',
+      'dc.contributor.author',
       'dc.creator',
     ],
     '_links': EMPTY,
